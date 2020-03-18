@@ -2,14 +2,14 @@
 
 class Pannier
 
-  def initialize(price, weight)
+  def initialize(price)
     @price = 3
     @weight = weight
   end
 
-  def price
-    @price
-  end
+  #def price
+    #@price
+  #end
 
   end
 
