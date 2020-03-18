@@ -9,6 +9,11 @@ class RoadBike
     @daily_rate = 15
   end
 
+  def prepare
+    clean
+    lubricate_gears
+  end
+
   def clean
     puts "Cleaning..."
   end
