@@ -2,14 +2,20 @@
 
 class Pannier
 
-  def initialize(price)
+  attr_reader :price, :weight
+
+  def initialize()
     @price = 3
-    @weight = weight
+    @weight = 4
   end
 
-  #def price
-    #@price
-  #end
+  def price
+    @price
+  end
+
+  def weight
+    @weight
+  end
 
   end
 

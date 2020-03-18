@@ -1,11 +1,14 @@
 class TailPack
 
+	attr_reader :cost
+
 def initialize
-  @cost = 2
+  @price = 2
+
 end
 
 def cost
-  @cost
+  @price
 end
 
 end
