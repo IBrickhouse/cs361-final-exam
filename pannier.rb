@@ -2,23 +2,16 @@
 
 class Pannier
 
-  def initialize
-    @price = 3 # Set price. Flat rate per rental
+  def initialize(price, weight)
+    @price = 3
+    @weight = weight
   end
 
-
-  # Get price
   def price
     @price
   end
 
   end
-
-
-
-  # def weight
-  #   @weight
-  # end
 
 
 
